@@ -1,0 +1,7 @@
+{
+  "name": "CashStash",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
