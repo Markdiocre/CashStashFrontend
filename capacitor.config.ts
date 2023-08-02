@@ -5,7 +5,12 @@ const config: CapacitorConfig = {
   appName: 'CashStash',
   webDir: 'dist',
   server: {
-    androidScheme: 'https'
+    androidScheme: 'http'
+  },
+  plugins:{
+    CapacitorCookies: {
+      enabled: true,
+    },
   }
 };
 

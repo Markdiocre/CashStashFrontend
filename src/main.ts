@@ -22,6 +22,11 @@ import '@ionic/vue/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import axios from 'axios';
+
+axios.defaults.baseURL = "http://127.0.0.1:8000/api/v1/";
+// axios.defaults.baseURL = "http://192.168.18.185:8000/api/v1/";
+
 
 const app = createApp(App)
   .use(IonicVue)
